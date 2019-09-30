@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t vavyskov/samba:stretch .
+docker push vavyskov/samba:stretch

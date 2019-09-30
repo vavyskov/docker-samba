@@ -1,6 +1,4 @@
 #!/bin/bash
 
-docker build \
-    -t vavyskov/samba:alpine3.10 \
-    .
+docker build -t vavyskov/samba:alpine3.10 .
 docker push vavyskov/samba:alpine3.10
